@@ -1,0 +1,38 @@
+@import '../helpers/variables';
+@import '../mixins/display-flex';
+@import '../mixins/display-flex';
+@import '../mixins/responsive';
+
+.job-description {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    @include tablet-port {
+        flex-direction: column;
+    }
+    .job-description-info {
+        flex-shrink: 0;
+        margin: 10px 80px 0 0;
+        @include tablet-port {
+            margin: 0 0 20px 0;
+        }
+    }
+    .job-description-info-item {
+        text-transform: uppercase;
+        font-family: $primary-font-bold;
+        &:not(:first-child) {
+            margin-top: 10px;
+        }
+    }
+    .job-description-text {
+        width: 80%;
+        @include tablet-port {
+            width: 100%;
+        }
+        p {
+            margin: 0;
+            font-size: 18px;
+            line-height: 32px;
+        }
+    }
+}

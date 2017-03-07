@@ -1,0 +1,14 @@
+@import '../helpers/variables';
+@import '../mixins/display-flex';
+@import '../mixins/display-flex';
+@import '../mixins/responsive';
+
+.contact-info {
+    .email {
+        text-transform: uppercase;
+        font-family: $primary-font-bold;
+        @include tablet-port {
+            font-size: 14px;
+        }
+    } 
+}

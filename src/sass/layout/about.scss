@@ -1,0 +1,68 @@
+@import '../helpers/variables';
+@import '../mixins/display-flex';
+@import '../mixins/display-flex';
+@import '../mixins/responsive';
+
+#about {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    min-height: 100vh;
+    background: $white;
+    padding: 100px 30px 30px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    @include tablet-port {
+        flex-direction: column;
+    }
+    @include smartphone-land {
+        padding: 100px 10%;
+    }
+    .text-about {
+        font: 3.8vw/4.5vw $primary-font-bold;
+        text-transform: uppercase;
+        margin: 0 50px;
+        width: 55%;
+        @include tablet-port {
+            width: 100%;
+            margin: 0;
+            font-size: 5vw;
+        }
+    }
+    .contact-info-container {
+        flex-shrink: 0;
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+        justify-content: flex-end;
+        @include smartphone-land {
+            flex-direction: column-reverse;
+            margin: 30px 0;
+            justify-content: flex-start;
+        }
+        .contact-gif {
+            width: 300px;
+            align-self: flex-start;
+            @include smartphone-land {
+                width: 100%;
+                margin-top: 20px
+            }
+        }
+        .contact-info {
+            text-align: right;
+            text-transform: uppercase;
+            @include smartphone-land {
+                text-align: left;
+                width: 100%;
+            }
+            .contact-info-title {
+                font-family: $primary-font-bold;
+            }
+            .email{
+                margin: 10px 0;
+            }
+
+        }
+    }
+}

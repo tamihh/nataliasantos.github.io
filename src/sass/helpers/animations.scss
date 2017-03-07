@@ -1,0 +1,19 @@
+.fadein-enter {
+  opacity: 0;
+  transition: all 1s ease;
+}
+
+.fadein-enter.fadein-enter-active {
+  opacity: 1;
+  transition: all 1s ease;
+}
+
+.fadein-leave {
+  opacity: 0;
+  transition: all 1s ease;
+}
+
+.fadein-leave.fadein-leave-active {
+  opacity: 0;
+  transition: all 1s ease;
+}

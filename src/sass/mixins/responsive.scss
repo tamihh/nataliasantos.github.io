@@ -1,0 +1,106 @@
+@mixin desktop-xxlarge {
+  @media (max-width: #{$desktop-xxlarge}) {
+    @content;
+  }
+}
+
+@mixin desktop-xlarge {
+  @media (max-width: #{$desktop-xlarge}) {
+    @content;
+  }
+}
+
+@mixin desktop-large {
+  @media (max-width: #{$desktop-large}) {
+    @content;
+  }
+}
+
+@mixin desktop-medium {
+  @media (max-width: #{$desktop-medium}) {
+    @content;
+  }
+}
+
+@mixin notebook {
+  @media (max-width: #{$notebook}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: #{$smartphone-land}) and (max-width: #{$tablet-land}) {
+    @content;
+  }
+}
+
+@mixin tablet-land {
+  @media (max-width: #{$tablet-land}) {
+    @content;
+  }
+}
+
+@mixin tablet-middle {
+  @media (max-width: #{$tablet-middle}) {
+    @content;
+  }
+}
+
+@mixin tablet-port {
+  @media (max-width: #{$tablet-port}) {
+    @content;
+  }
+}
+
+@mixin smartphone-land {
+  @media (max-width: #{$smartphone-land}) {
+    @content;
+  }
+}
+
+@mixin smartphone-port {
+  @media (max-width: #{$smartphone-port}) {
+    @content;
+  }
+}
+
+
+@mixin device-tablet-land {
+  @media only screen
+    and (max-device-width: #{$tablet-land}) {
+
+    @content;
+  }
+}
+
+@mixin device-tablet-middle {
+  @media only screen
+    and (max-device-width: #{$tablet-middle}) {
+
+    @content;
+  }
+}
+
+@mixin device-tablet-port {
+  @media only screen
+    and (max-device-width: #{$tablet-port}) {
+
+    @content;
+  }
+}
+
+@mixin device-smartphone-land {
+  @media only screen
+    and (max-device-width: #{$smartphone-land}) {
+
+    @content;
+  }
+}
+
+@mixin device-smartphone-port {
+  @media only screen
+    and (max-device-width: #{$smartphone-port}) {
+
+    @content;
+  }
+}

@@ -1,0 +1,48 @@
+@import '../helpers/variables';
+
+.header {
+    width: 100%;
+    justify-content: space-between;
+    padding: 15px 100px;
+    position: absolute;
+    z-index: 10;
+    display: flex;
+
+    .logo,
+    .nav-item {
+        font-weight: bold;
+        color: $black;
+        font: 28px/28px $primary-font-bold;
+        cursor: pointer;
+        text-transform: uppercase;
+    }
+
+    .logo{
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+    }
+    .logo-subtitle {
+        font: 10px $primary-font-regular;
+        letter-spacing: 10px; 
+        margin-left: 15px;   
+        text-align: center;
+    }
+
+    .nav {
+        margin-left: auto;
+    }
+    .nav-item {
+        &:hover {
+            text-decoration: line-through;
+        }
+    }
+}
+
+.about-page-open {
+    .header {
+        .logo {
+           display: none; 
+        }
+    }
+}

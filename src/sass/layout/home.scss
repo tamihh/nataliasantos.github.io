@@ -1,0 +1,10 @@
+@import '../helpers/variables';
+@import '../mixins/display-flex';
+@import '../mixins/display-flex';
+@import '../mixins/responsive';
+
+#home {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}

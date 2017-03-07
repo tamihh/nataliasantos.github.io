@@ -1,0 +1,41 @@
+@import '../helpers/variables';
+@import '../mixins/display-flex';
+@import '../mixins/responsive';
+
+.social-links {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    @include smartphone-port {
+        flex-direction: column;
+    }
+    .social-link {
+        list-style: none;
+        @include tablet-port {
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+        & ~ .social-link {
+            margin-left: 10px;
+            @include smartphone-port {
+                margin-left: 0;
+            }
+            &:before {
+                content: '';
+                border-right: 2px solid $black;
+                margin-right: 10px;
+                @include smartphone-port {
+                    border: 0;
+                    margin: 0;
+                }
+            }
+        }
+        a {
+            text-decoration: none;
+            color: $black;
+            text-transform: uppercase;
+            font-family: $primary-font-bold;
+        }
+    }
+}

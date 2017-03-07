@@ -1,0 +1,14 @@
+@import '../helpers/variables';
+@import '../mixins/display-flex';
+@import '../mixins/display-flex';
+@import '../mixins/responsive';
+
+#work {
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    background: $white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,127 @@
+@import '../helpers/variables';
+
+.work-list-container {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+}
+.work-list {
+
+    .work-list-item { 
+        display: inline-block;
+        list-style: none;
+        transition: all .5s ease;
+        &.is-hovering {
+            opacity: 1;
+        }
+        &:first-child {
+            .work-list-item-link{
+                padding-left: 5vw;
+                &:before {
+                    width: 5vw;
+                }
+            }
+        }
+        &:nth-child(2) {
+            .work-list-item-link{
+                padding-left: 11vw;
+                &:before {
+                    width: 9vw;
+                    margin-left: 1vw;
+                }
+            }
+        }
+        &:nth-child(3) {
+            .work-list-item-link{
+                padding-left: 15vw;
+                &:before {
+                    width: 14vw;
+                }
+            }
+        }
+        &:nth-child(4) {
+            .work-list-item-link{
+                padding-left: 15vw;
+                &:before {
+                    width: 13vw;
+                    margin-left: 1vw;
+                }
+                &:after {
+                    right: -35%;
+                    content: '';
+                    width: 7vw;
+                }
+            }
+        }
+        &:nth-child(5) {
+            .work-list-item-link{
+                padding-left: 7vw;
+                &:before {
+                    width: 6vw;
+                }
+            }
+        }
+        &:nth-child(6) {
+            .work-list-item-link{
+                padding-left: 11vw;
+                margin-left: 1vw;
+                &:before {
+                    width: 10vw;
+                }
+                &:after {
+                    right: -25%;
+                    content: '';
+                    width: 9vw;
+                }
+            }
+        }
+        .work-list-item-link{
+            color: $black;
+            text-transform: uppercase;
+            font: 8.5vw $primary-font-bold;
+            text-decoration: none;
+            position: relative;
+            padding-left: 11vw;
+            letter-spacing: -0.2vw;
+            line-height: 8vw;
+            &:before {
+                display: block;
+                position: absolute;
+                top: 45%;
+                content: '';
+                width: 10vw;
+                height: 1.5vw;
+                left: 0;
+                background-color: $black;
+            }
+            &:after {
+                display: block;
+                position: absolute;
+                top: 45%;
+                height: 1.5vw;
+                background-color: $black;
+            }
+
+        }
+
+    }
+
+}
+
+.project-visible {
+    .work-list-item{
+        opacity: .3;
+        .work-list-item-link {
+            color: $white;
+            &:before,
+            &:after {
+                background-color: $white;
+                opacity: .3;
+            }
+        }
+    }
+}

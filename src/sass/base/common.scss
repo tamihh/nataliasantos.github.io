@@ -1,0 +1,26 @@
+@import '../helpers/variables';
+@import '../mixins/display-flex';
+
+.container{
+    width: 100%;
+}
+
+.main {
+    position: relative;
+    align-items: center;
+    @include display-flex;
+}
+
+.wrapper {
+    padding: 30px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    li {
+        list-style: none;
+    }
+}

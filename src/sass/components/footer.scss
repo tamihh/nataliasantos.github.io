@@ -1,0 +1,15 @@
+@import '../helpers/variables';
+@import '../mixins/display-flex';
+@import '../mixins/display-flex';
+@import '../mixins/responsive';
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @include tablet-port {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }   
+}

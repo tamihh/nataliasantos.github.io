@@ -31,19 +31,19 @@
                 "large-height": ""
               }
             },
+            "feature_image": {
+              "id": "2",
+              "title": "",
+              "filename": "",
+              "description": "",
+              "url": "../img/tnt/content_1.png",
+              "alt": "",
+              "sizes": {
+                "large-width": "",
+                "large-height": ""
+              }
+            },
             "content_images": [
-              {
-                "id": "2",
-                "title": "",
-                "filename": "",
-                "description": "",
-                "url": "../img/tnt/content_1.png",
-                "alt": "",
-                "sizes": {
-                  "large-width": "",
-                  "large-height": ""
-                }
-              },
               {
                 "id": "3",
                 "title": "tnt",
@@ -109,6 +109,7 @@
           "title": "video Itaipava",
           "filename": ".mp4",
           "url": "../img/itaipava/content_2.mp4",
+          "poster" : "../img/itaipava/video-poster.jpg",
           "alt": "",
           "description": "",
           "mime_type": "video\/mp4",
@@ -131,19 +132,20 @@
                 "large-height": ""
               }
             },
-            "content_images": [
-              {
-                "id": "5",
-                "title": "",
-                "filename": "",
-                "description": "",
-                "url": "../img/itaipava/content_1.png",
-                "alt": "",
-                "sizes": {
-                  "large-width": "",
-                  "large-height": ""
-                }
+            "feature_image": {
+              "id": "2",
+              "title": "",
+              "filename": "",
+              "description": "",
+              "url": "../img/itaipava/content_1.png",
+              "alt": "",
+              "sizes": {
+                "large-width": "",
+                "large-height": ""
               }
+            },
+            "content_images": [
+
             ]
           }
         ]
@@ -195,19 +197,20 @@
                 "large-height": ""
               }
             },
-            "content_images": [
-              {
-                "id": "8",
-                "title": "",
-                "filename": "",
-                "description": "",
+            "feature_image": {
+              "id": "2",
+              "title": "",
+              "filename": "",
+              "description": "",
                 "url": "../img/malbec/content_1.png",
-                "alt": "",
-                "sizes": {
-                  "large-width": "",
-                  "large-height": ""
-                }
+              "alt": "",
+              "sizes": {
+                "large-width": "",
+                "large-height": ""
               }
+            },
+            "content_images": [
+  
             ]
           }
         ]
@@ -259,19 +262,20 @@
                 "large-height": ""
               }
             },
-            "content_images": [
-              {
-                "id": "11",
-                "title": "",
-                "filename": "",
-                "description": "",
+            "feature_image": {
+              "id": "2",
+              "title": "",
+              "filename": "",
+              "description": "",
                 "url": "../img/lg/content_1.png",
-                "alt": "",
-                "sizes": {
-                  "large-width": "",
-                  "large-height": ""
-                }
-              },
+              "alt": "",
+              "sizes": {
+                "large-width": "",
+                "large-height": ""
+              }
+            },
+            "content_images": [
+     
               {
                 "id": "12",
                 "title": "",
@@ -333,19 +337,20 @@
                 "large-height": ""
               }
             },
-            "content_images": [
-              {
-                "id": "14",
-                "title": "",
-                "filename": "",
-                "description": "",
+            "feature_image": {
+              "id": "2",
+              "title": "",
+              "filename": "",
+              "description": "",
                 "url": "../img/airwick/content_1.png",
-                "alt": "",
-                "sizes": {
-                  "large-width": "",
-                  "large-height": ""
-                }
-              },
+              "alt": "",
+              "sizes": {
+                "large-width": "",
+                "large-height": ""
+              }
+            },
+            "content_images": [
+
               {
                 "id": "14",
                 "title": "",
@@ -432,19 +437,20 @@
                 "large-height": ""
               }
             },
-            "content_images": [
-              {
-                "id": "17",
-                "title": "",
-                "filename": "",
-                "description": "",
+            "feature_image": {
+              "id": "2",
+              "title": "",
+              "filename": "",
+              "description": "",
                 "url": "../img/crystal/content_1.png",
-                "alt": "",
-                "sizes": {
-                  "large-width": "",
-                  "large-height": ""
-                }
-              },
+              "alt": "",
+              "sizes": {
+                "large-width": "",
+                "large-height": ""
+              }
+            },
+            "content_images": [
+
               {
                 "id": "18",
                 "title": "",

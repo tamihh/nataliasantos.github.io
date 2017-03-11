@@ -1,0 +1,41 @@
+@import '../helpers/variables';
+@import '../mixins/display-flex';
+
+    .video-container  {
+        width: 100%;
+        border: 30px solid $white;
+        position: relative;
+        .play-button {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 38px;
+            margin: 0 auto;
+            width: 100%;
+            @include display-flex;
+            justify-content: center;
+            align-content: center;
+            .btn-icon {
+                width: 10vw;
+                height: 10vw;
+                align-self: center;
+                font-size: 5vw;
+                text-align: center;
+                padding: 2.5vw 3.5vw;
+                background: rgba($black, .4);
+                border-radius: 100%;
+                color: rgba($white, 1);
+                transition: all .25s ease;
+                cursor: pointer;
+                display: none;
+                &:hover {
+                    background: rgba($black, .6);
+                    color: rgba($white, 1);
+                }
+                &.is-visible {
+                    display: block;
+                }
+            }
+        }
+    }

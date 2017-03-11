@@ -36,7 +36,7 @@ class WorkInfo extends React.Component {
 
 
     return (    
-        <div className="work-description wrapper">
+        <div className="work-description">
           <ul className="work-description-info">
             <li className="work-description-info-item">Agency: {workInfo.agency}</li>
             <li className="work-description-info-item">Client: {workInfo.work_title}</li>

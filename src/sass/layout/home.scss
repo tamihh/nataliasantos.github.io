@@ -7,4 +7,18 @@
     display: flex;
     align-items: center;
     width: 100%;
+    .cover-image{
+        height: 100vh;
+        .image-container{
+            position: absolute;
+            top: 0;
+            left: 50%;
+        }
+        img{
+            display: block; 
+            object-fit: cover;
+            object-position: center center;
+            transform: translateX(-50%);
+        }
+    }
 }

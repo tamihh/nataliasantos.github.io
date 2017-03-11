@@ -9,8 +9,8 @@ import 'sass/components/cover-image.scss'
 class WorkContent extends React.Component {
 
     renderWorkImage() {
-        let coverImageUrl = this.props.work.medias[0].images[0].cover_image.url;
-        let coverImageAlt = this.props.work.medias[0].images[0].cover_image.title;
+        let coverImageUrl = this.props.work.medias[0].images[0].feature_image.url;
+        let coverImageAlt = this.props.work.medias[0].images[0].feature_image.title;
 
         return (
             <div className={`cover-image`}>
@@ -23,7 +23,7 @@ class WorkContent extends React.Component {
 
     renderContentImages() {
         let contentImages = this.props.work.medias[0].images[0].content_images;
-
+        
         return (
             contentImages.map((image, index) => {
                 return (
@@ -44,9 +44,7 @@ class WorkContent extends React.Component {
 
             return (
                 <div className="cover-video">
-                    <div className="video-container">
-                        <WorkVideo videoUrl={contentVideo.url} title={contentVideo.title} />
-                    </div>
+                    <WorkVideo contentVideo={contentVideo} />
                 </div>
             );
         }

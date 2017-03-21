@@ -11,8 +11,11 @@ let About = React.createClass({
 
         return (
             <section id="about">
-                <h2 className="text-about">Lorem ipsum dorlor sit amet, consecterdipisicin g elit, sed do eiusmod tempor incididun ut labore et dolore
-                    magna aliqua. enim an minin venian, quis nostrud excitation.</h2>
+                <h2 className="text-about">
+                    Fresh graduated graphic designer, currently living in São Paulo. 
+                    I started designing things as a intern in a Dublin based agency, working for brands such as Jameson and Pizza Hut. 
+                    Currently I’m working at Young&Rubicam as a Art Assistant where I’m taking part in important campaigns working for brands such as Itaipava, TNT Energy Drink, VIVO, LG. Check out my work and lets talk.
+                </h2>
                 <div className="contact-info-container">
                     <img src="/img/giphy.gif" alt="git" className="contact-gif" />
                     <div className="contact-info">

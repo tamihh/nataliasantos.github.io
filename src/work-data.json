@@ -6,10 +6,11 @@
     "agency": "Y&R",
     "menu_order": "0",
     "role": [
-      "Art Direction",
-      "UX"
+      "Marcos Lee", 
+      "Lucas Arruda", 
+      "Natalia Santos"
     ],
-    "description": "",
+    "description": "The TNT Energy Drink presents the new positioning, which brings the concept “Bring it on“ and intends to bring consumers a message of self-confidence. To launch the new campaign and represent this new identity, the new site follows an innovative style where we can see all TNT presence in the fashion, geek, radical and cultural universe.",
     "link": "",
     "freefield": [
       "",
@@ -24,7 +25,7 @@
               "title": "Cover TNT",
               "filename": "",
               "description": "",
-              "url": "../img/tnt/abertura.png",
+              "url": "../img/tnt/abertura.jpg",
               "alt": "",
               "sizes": {
                 "large-width": "",
@@ -86,6 +87,7 @@
       }
     ]
   },
+
   {
     "id": "1",
     "work_id": "itaipava",
@@ -93,10 +95,11 @@
     "agency": "Y&R",
     "menu_order": "0",
     "role": [
-      "Art Direction",
-      "UX"
+      "Bernardo Tavares", 
+      "Marcos Lee", 
+      "Natalia Santos"
     ],
-    "description": "description",
+    "description": "Promo activation based on the viral audio ‘Hoje é dia de Maldade’ to promote the Itaipava’s campaign on internet. It was created the video ‘Hoje é dia de Verão’ showing that, for those who has the summer spirit, any time of the year can be summer.",
     "link": "",
     "freefield": [
       "",
@@ -152,17 +155,19 @@
       }
     ]
   },
+
   {
     "id": "2",
     "work_id": "o-boticario",
     "work_title": "O Boticario",
-    "agency": "W3 House",
+    "agency": "W3Haus",
     "menu_order": "0",
     "role": [
-      "Art Direction",
-      "UX"
+      "Allan Diego", 
+      "Tamiris Gomes", 
+      "Natalia Santos"
     ],
-    "description": "",
+    "description": "To launch the new version of Absolute Malbec the mission was to reformulate the website bringing a digital action. We create the Absolute Repertoire, a section where men could choose from objects that most represented their style. On the site it was also possible to have fashion tips and make reservations with discounts in the most sophisticated restaurants in São Paulo.",
     "link": "",
     "freefield": [
       "",
@@ -174,7 +179,7 @@
           "id": "",
           "title": "",
           "filename": ".mp4",
-          "url": "../img/malbec/content_2.mp4",
+          "url": "../img/malbec/content_3.mp4",
           "alt": "",
           "description": "",
           "mime_type": "video\/mp4",
@@ -210,24 +215,37 @@
               }
             },
             "content_images": [
-  
+              {
+                "id": "2",
+                "title": "",
+                "filename": "",
+                "description": "",
+                  "url": "../img/malbec/content_2.png",
+                "alt": "",
+                "sizes": {
+                  "large-width": "",
+                  "large-height": ""
+                }
+              }
             ]
           }
         ]
       }
     ]
   },
+
   {
     "id": "3",
     "work_id": "lg",
     "work_title": "LG",
-    "agency": "W3 House",
+    "agency": "W3Haus",
     "menu_order": "0",
     "role": [
-      "Art Direction",
-      "UX"
+      "Will Ferrari",
+      "Nando Sperb",
+      "Natalia Santos"
     ],
-    "description": "",
+    "description": "Integrated campaign for the launch of the LG G3 smartphone. We created a digital experience that turned users into photographers with just a simple hand gesture: opening and closing of the user's hand in front of the camera, one of the G3's prominent tools. The idea of the interactive experience is to make the users able to take pictures of the models using a simple hand gesture in front of the webcam. With this movement, you create a photo session signed by a G3 user composing an album in a magazine format, available for download and to be shared on social networks.",
     "link": "",
     "freefield": [
       "",
@@ -306,16 +324,19 @@
       }
     ]
   },
+
   {
     "id": "4",
     "work_id": "airwick",
     "work_title": "Air Wick",
-    "agency": "W3 House",
+    "agency": "W3Haus",
     "menu_order": "0",
     "role": [
-      "Art Direction"
+      "Mateus Oliveira",
+      "Rafael Darri",
+      "Natalia Santos"
     ],
-    "description": "",
+    "description": "For the launch of the new Air Wick Home Perfume Collection, we created a platform that works as a personal home stylish, in the website, with a facebook analysis on the user’s profile, based on likes and pages, the platform identify the user’s style and offers the specific  Airwick product that matches with the user. After the results, they could sign in to receive the specific product in their home, to try the new line.",
     "link": "",
     "freefield": [
       "",
@@ -393,6 +414,7 @@
       }
     ]
   },
+  
   {
     "id": "5",
     "work_id": "crystal",
@@ -400,9 +422,11 @@
     "agency": "Y&R",
     "menu_order": "0",
     "role": [
-      "Art Direction"
+      "Marcos Lee",
+      "Lucas Arruda", 
+      "Natalia Santos"
     ],
-    "description": "description",
+    "description": "To launch of the new campaign the mission was to reformulate the Crystal Beer website bringing a digital action that spoke the language of this audience.",
     "link": "",
     "freefield": [
       "",

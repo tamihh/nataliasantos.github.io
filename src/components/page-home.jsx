@@ -30,6 +30,7 @@ class Home extends React.Component {
   }
 
 
+
   filterWorkById(work) {
     let currentOver = this.state.currentOver;
 
@@ -55,9 +56,10 @@ class Home extends React.Component {
 
   render() {
     let coverImageClass = this.state.isHovering ? 'is-active' : '';
+    let projectState = this.state.isHovering ? `${this.state.currentOver}-visible` : '';
 
     return (
-      <section id="home">
+      <section id="home" className={projectState}>
 
         <div className={`cover-image ${coverImageClass}`}>
           <div className="image-container">
@@ -115,6 +117,7 @@ class Home extends React.Component {
             </li>
           </ul>
         </div>
+        <a href="http://nnataliasantos.tumblr.com" className="link stuff-link">Stuff</a>
       </section>
     );
   }

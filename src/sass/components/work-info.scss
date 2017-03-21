@@ -4,7 +4,6 @@
 @import '../mixins/responsive';
 
 .work-description {
-    width: 100%;
     display: flex;
     justify-content: space-between;
     margin: 0 30px;
@@ -13,20 +12,26 @@
     }
     .work-description-info {
         flex-shrink: 0;
+        max-width: 19%;
         margin: 10px 80px 0 0;
         @include tablet-port {
             margin: 0 0 20px 0;
+            max-width: 100%;
         }
     }
     .work-description-info-item {
         text-transform: uppercase;
-        font-family: $primary-font-bold;
+        font-family: $primary-font-light;
         &:not(:first-child) {
             margin-top: 10px;
         }
+        .item-label {
+            font-family: $primary-font-bold;
+        }
+
     }
     .work-description-text {
-        width: 80%;
+        flex-grow: 1;
         @include tablet-port {
             width: 100%;
         }

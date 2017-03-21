@@ -17,17 +17,22 @@
         flex-direction: column;
     }
     @include smartphone-land {
-        padding: 100px 10%;
+        padding: 20vw 10%;
     }
     .text-about {
-        font: 3.8vw/4.5vw $primary-font-bold;
+        font: 2.5vw/3.5vw $primary-font-bold;
         text-transform: uppercase;
         margin: 0 50px;
         width: 55%;
         @include tablet-port {
             width: 100%;
             margin: 0;
-            font-size: 5vw;
+            font-size: 3vw;
+            line-height: 4.5vw;
+        }
+        @include smartphone-port {
+            font-size: 4.5vw;
+            line-height: 6.8vw;
         }
     }
     .contact-info-container {
@@ -38,7 +43,7 @@
         justify-content: flex-end;
         @include smartphone-land {
             flex-direction: column-reverse;
-            margin: 30px 0;
+            margin: 5vw 0;
             justify-content: flex-start;
         }
         .contact-gif {
@@ -58,6 +63,10 @@
             }
             .contact-info-title {
                 font-family: $primary-font-bold;
+
+            }
+            p {
+                margin:  5px 0;   
             }
             .email{
                 margin: 10px 0;

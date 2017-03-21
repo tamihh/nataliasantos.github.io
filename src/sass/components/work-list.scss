@@ -15,8 +15,11 @@
         display: inline-block;
         list-style: none;
         transition: all .5s ease;
-        &.is-hovering {
+        &:hover {
             opacity: 1;
+            .work-list-item-link {
+                color: $black;
+            }
         }
         &:first-child {
             .work-list-item-link{
@@ -88,6 +91,7 @@
             padding-left: 11vw;
             letter-spacing: -0.2vw;
             line-height: 8vw;
+            transition: all .5s ease;
             &:before {
                 display: block;
                 position: absolute;

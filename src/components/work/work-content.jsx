@@ -27,7 +27,7 @@ class WorkContent extends React.Component {
         return (
             contentImages.map((image, index) => {
                 return (
-                    <div className="cover-image">
+                    <div className="cover-image" key={index}>
                         <div className="image-container">
                             <WorkImage imageUrl={image.url} alt={image.title} key={index} />
                         </div>

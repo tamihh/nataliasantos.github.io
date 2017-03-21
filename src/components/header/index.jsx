@@ -11,13 +11,13 @@ class Header extends React.Component {
 
     switch(window.location.pathname) {
     case "/about":
-        navItemName = <Link to="/" className="nav-item">Work</Link>;
+        navItemName = <Link to="/" className="link nav-item">Work</Link>;
         break;
     case "/":
-        navItemName = <Link to="/about" className="nav-item">About</Link>;
+        navItemName = <Link to="/about" className="link nav-item">About</Link>;
         break;
     default:
-        navItemName = <Link to="/" className="nav-item">Back</Link>;
+        navItemName = <Link to="/" className="link nav-item">Back</Link>;
 
     }
 
